@@ -2,7 +2,6 @@
   "name": "heroku-app-frontend",
   "version": "1.0.0",
   "scripts": {
-    "heroku-postbuild": "",
     "start": "echo \"const backendUrl = '${BACKEND_URL}';\" > config.js"
   }
 }
