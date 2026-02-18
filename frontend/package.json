@@ -2,10 +2,7 @@
   "name": "heroku-app-frontend",
   "version": "1.0.0",
   "scripts": {
-    "heroku-postbuild": ". ./.env && echo \"const backendUrl = '${BACKEND_URL}';\" > config.js",
-    "start": "http-server . -p $PORT"
-  },
-  "dependencies": {
-    "http-server": "^14.1.0"
+    "heroku-postbuild": "",
+    "start": "echo \"const backendUrl = '${BACKEND_URL}';\" > config.js"
   }
 }
