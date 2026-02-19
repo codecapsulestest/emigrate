@@ -3,5 +3,6 @@
   "version": "1.0.0",
   "scripts": {
     "start": "echo \"const backendUrl = '${BACKEND_URL}';\" > config.js"
-  }
+  },
+  "engines": {"node": "24.x"}
 }
